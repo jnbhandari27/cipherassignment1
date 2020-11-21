@@ -1,0 +1,100 @@
+body{
+    background-color: #f1faee;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+img{
+    float:center;
+    margin: 1%;
+}
+header{
+    background-color: #e63946;
+    color: #f1faee;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-width: 10px;
+    border-radius: 3px 3px 0px 0px;
+}
+section{
+    background-color: #a8dadc;
+    padding: 10px;
+}
+footer{
+    background-color: #e63946;
+    color: #f1faee;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 0px 0px 3px 3px;
+}
+footer>nav{
+    margin-top: 10px;
+}
+nav{
+    text-align: center;
+}
+nav>a{
+    padding: 5px 10px;
+}
+nav>a:hover{
+    background-color: #1d3557;
+    color: #f1faee;
+    font-size: 110%;
+}
+h1{
+    text-align: center;
+    padding: 5px;
+    background-color:  #1d3557;
+    margin: 10px 400px;
+    color: #f1faee;
+    border-radius: 3px;
+}
+.even{
+    color:#a8dadc;
+    background-color: #457b9d;
+}
+.odd{
+    color: #457b9d;
+}
+
+
+form{
+    text-align: center;
+    color: #1d3557;
+    padding: 20px;
+    background-color: #a8dadc;
+    margin: 10px 500px;
+    border-radius: 3px;
+}
+button{
+    width: 200px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;
+}
+#username{
+    width: 200px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px; 
+    margin-bottom:20px;
+}
+#password{
+    width: 200px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px; 
+    margin-bottom:20px;
+}
+.form{
+    margin: 10px 500px;
+    margin-top: 10%;
+}
+button:hover{
+    background-color: #1d3557;
+    color: #f1faee;
+    font-size: 110%;
+}
